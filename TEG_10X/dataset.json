@@ -1,0 +1,229 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Volumes/My Passport/TEG/10X/CellBrowser/meta.tsv",
+      "md5": "ae3c5736e0",
+      "size": 212829,
+      "mtime": "2020-05-28 21:54:17"
+    },
+    "outMeta": {
+      "fname": "/Users/fkeramati/surfdrive/BrowserTemp/TEG_10X/meta.tsv",
+      "md5": "ae3c5736e0",
+      "size": 212829,
+      "mtime": "2020-05-28 21:54:51"
+    },
+    "inMatrix": {
+      "fname": "/Volumes/My Passport/TEG/10X/CellBrowser/exprMatrix.tsv.gz",
+      "md5": "2789d674fc",
+      "size": 10930864,
+      "mtime": "2020-05-28 21:54:17"
+    },
+    "outMatrix": {
+      "fname": "/Users/fkeramati/surfdrive/BrowserTemp/TEG_10X/exprMatrix.tsv.gz",
+      "md5": "2789d674fc",
+      "size": 10930864,
+      "mtime": "2020-05-28 21:54:52"
+    },
+    "conf": {
+      "fname": "/Volumes/My Passport/TEG/10X/CellBrowser/cellbrowser.conf",
+      "md5": "630485cacc",
+      "size": 413,
+      "mtime": "2020-05-28 21:54:17"
+    }
+  },
+  "sampleCount": 5924,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 16,
+      "diffValCount": 5924,
+      "md5": "78ca72269f"
+    },
+    {
+      "name": "PercentMitochondrial",
+      "label": "Percent_Mitochondrial",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 5847,
+      "md5": "d61dbc658b"
+    },
+    {
+      "name": "Clusters",
+      "label": "Clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1456
+        ],
+        [
+          "1",
+          892
+        ],
+        [
+          "2",
+          602
+        ],
+        [
+          "3",
+          475
+        ],
+        [
+          "4",
+          434
+        ],
+        [
+          "5",
+          396
+        ],
+        [
+          "6",
+          357
+        ],
+        [
+          "7",
+          306
+        ],
+        [
+          "8",
+          255
+        ],
+        [
+          "9",
+          238
+        ],
+        [
+          "10",
+          181
+        ],
+        [
+          "11",
+          150
+        ],
+        [
+          "12",
+          94
+        ],
+        [
+          "13",
+          88
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 14,
+      "md5": "236af856e3"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "549bd20335",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "LRRN3",
+      "CD8A",
+      "JAML",
+      "HCST"
+    ],
+    "2": [
+      "GNLY",
+      "NEAT1"
+    ],
+    "3": [
+      "KLRB1",
+      "S100A4"
+    ],
+    "4": [
+      "CCL4",
+      "CCL3",
+      "CSF2",
+      "TRAC",
+      "CD40LG"
+    ],
+    "5": [
+      "SOX4",
+      "GZMK",
+      "GZMH",
+      "NKG7"
+    ],
+    "6": [
+      "LGALS1",
+      "IL3RA",
+      "IL17RB",
+      "GAPDH",
+      "ACTG1"
+    ],
+    "7": [
+      "GNLY",
+      "CCL5"
+    ],
+    "8": [
+      "PMCH",
+      "CD74",
+      "HLA-DRA",
+      "HLA-DQA1",
+      "HLA-DPA1"
+    ],
+    "9": [
+      "IFI27",
+      "IL5",
+      "IL13",
+      "LINC01943",
+      "TNFSF10"
+    ],
+    "10": [
+      "TRGC2",
+      "CCL5",
+      "CD8B",
+      "CD8A"
+    ],
+    "11": [
+      "LTB",
+      "MALAT1",
+      "NEAT1",
+      "RNF213",
+      "EMP3"
+    ],
+    "12": [
+      "TOP2A",
+      "ASPM",
+      "UBE2C",
+      "DLGAP5",
+      "HIST1H1B"
+    ],
+    "13": [
+      "CCR7",
+      "BASP1",
+      "MS4A1",
+      "PLEK",
+      "PMAIP1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "name": "TEG_10X",
+  "shortLabel": "TEG_10X",
+  "clusterField": "Clusters",
+  "md5": "d0f437706a"
+}
