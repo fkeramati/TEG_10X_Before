@@ -1,0 +1,25 @@
+{
+  "name": "TEG_10X",
+  "shortLabel": "TEG_10X",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "Clusters",
+  "labelField": "Clusters",
+  "enumFields": [
+    "Clusters"
+  ],
+  "markers": [
+    {
+      "file": "/Volumes/My Passport/TEG/10X/CellBrowser/markers.txt",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Volumes/My Passport/TEG/10X/CellBrowser/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    }
+  ],
+  "inDir": ""
+}
